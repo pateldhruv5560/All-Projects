@@ -1,0 +1,124 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 80vh;
+    width: 80vw;
+    background-color: white;
+    margin: 30px auto;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-row: 5px; */
+    row-gap: 50px;
+}
+
+.box {
+    height: 25vh;
+    width: 20vw;
+    border: 2px solid gray;
+    background-color: gray;
+    box-shadow: 2px 2px 15px gray;
+}
+
+.thumbnail {
+    color: white;
+    padding-left: 13vh;
+    padding-top: 9vh;
+    font-size: 25px;
+}
+
+.box2 {
+    height: 15vh;
+    width: 20vw;
+    border: 2px solid white;
+    box-shadow: 2px 2px 15px grey;
+}
+
+p {
+    color: gray;
+    width: 18vw;
+}
+
+.view {
+    display: flex;
+
+}
+
+button {
+    height: 4vh;
+    width: 6vw;
+}
+
+
+/* media query */
+
+@media (max-width: 575.98px) {
+    .container {
+        grid-template-columns: 1fr;
+        row-gap: 50%;
+    }
+
+    .box {
+        height: 80%;
+        width: 90%;
+
+    }
+
+    .box2 {
+        height: 80%;
+        width: 90%;
+    }
+
+    .thumbnail {
+        padding-left: 80px;
+        padding-top: 70px;
+    }
+
+    p {
+        width: 90%;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .view {
+
+        padding-top: 30px;
+
+    }
+
+    button {
+        height: 50px;
+        width: 100px;
+    }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 1000px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 35%;
+    }
+    .box{
+        height: 80%;
+        width: 80%;
+    }
+    .box2{
+        height: 80%;
+        width: 80%;
+    }
+    p{
+        width: 80%;
+    }
+    .view{
+        padding-top: 10px;
+    }
+
+}

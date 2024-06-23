@@ -1,0 +1,2709 @@
+@media screen and (max-width: 1460px) {
+
+
+    .navbar {
+      align-items: center;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 2vw;
+      margin-top: 1px;
+      width: 100%;
+  
+    }
+  
+    ul {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      text-decoration: none;
+      display: flex;
+      gap: 40px;
+      list-style: none;
+      opacity: 0.7;
+  
+  
+    }
+  
+    a {
+      text-decoration: none;
+      color: black;
+  
+    }
+  
+  
+    .teamflow h2 {
+  
+      margin: 0 100px 0 0;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-weight: 100;
+    }
+  
+    .getlogin {
+      display: flex;
+      gap: 2vw;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: 30px;
+  
+    }
+  
+  
+  
+    .getstarted {
+      height: 40px;
+      width: 130px;
+      text-align: center;
+      align-content: center;
+      font-size: 16px;
+      font-weight: 500;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      background-color: #ECE5FF;
+      color: #794CFF;
+    }
+  
+    .login {
+      font-size: 15px;
+      margin-top: 10px;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+    }
+  
+    .h1managetheteam {
+      width: 35vw;
+  
+      text-align: center;
+      font-size: 35px;
+      margin-left: 450px;
+      opacity: 0.7;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      margin-top: 10px;
+  
+    }
+  
+    .lorem1 {
+      margin-left: 480px;
+      width: 400px;
+      height: 40px;
+      margin-top: 20px;
+      text-align: center;
+  
+    }
+  
+  
+  
+    #email {
+      margin-left: 550px;
+      margin-top: 10px;
+      height: 25px;
+      width: 150px;
+    }
+  
+  
+    .mailbox {
+      display: flex;
+  
+    }
+  
+  
+    .tryitfree {
+      margin-top: 10px;
+      height: 26px;
+      width: 80px;
+      text-align: center;
+      padding-top: 5px;
+      background-color: #794CFF;
+      color: white;
+    }
+  
+    .graph1 {
+      margin: 10px 400px;
+      width: 650px;
+    }
+  
+    .socialmedia {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      width: 600px;
+      margin-left: 280px;
+      margin-top: 20px;
+    }
+  
+    .griditem {
+      height: 50px;
+      width: 170px;
+      column-gap: 30px;
+  
+    }
+  
+    .trustedbyover {
+      margin: 10px 500px;
+      width: 400px;
+  
+    }
+  
+    .socialmedia {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      width: 500px;
+      margin-left: 300px;
+      margin-top: 20px;
+    }
+  
+    .griditem {
+      height: 50px;
+      width: 170px;
+      column-gap: 30px;
+  
+    }
+  
+  
+  
+    .makeeasier {
+      height: 60vh;
+      width: 80%;
+      /* background-color: #c8e7a8; */
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      width: 70%;
+      margin-left: 15%;
+      margin-top: 20px;
+      opacity: 0.8;
+    }
+  
+  
+    .boxphoto {
+      width: 40px;
+      height: 40px;
+    }
+  
+  
+    .h2makeyour {
+      margin: 10px 500px;
+      opacity: 0.8;
+      font-size: 23px;
+      width: 400px;
+  
+    }
+  
+  
+  }
+  
+  
+  @media screen and (max-width: 1378px) {
+  
+    .h1managetheteam {
+      width: 35vw;
+  
+      text-align: center;
+      font-size: 35px;
+      margin-left: 450px;
+      opacity: 0.7;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      margin-top: 10px;
+  
+    }
+  
+    .customerlove {
+      width: 27%;
+      text-align: center;
+      margin-left: 500px;
+  
+    }
+  
+  
+    .h2customerlove {
+      width: 22vw;
+      margin-left: 20px;
+      margin-top: 20px;
+      font-size: 25px;
+  
+    }
+  
+  
+    .customercircle {
+      display: flex;
+      width: 23%;
+      margin: 3% 30%;
+  
+    }
+  
+    .circle2 {
+      margin-left: 100px;
+  
+    }
+  
+    .circle3 {
+      margin-left: 100px;
+  
+    }
+  
+    .circletext1 {
+      padding: 5px 10px;
+      opacity: 0.8;
+      font-size: 10px;
+  
+    }
+  
+    .purplebox {
+      width: 45vw;
+      height: 13vh;
+      margin: 0% 25%;
+      display: flex;
+      background-color: #796EFF;
+      border-radius: 15px;
+      gap: 10px;
+    }
+  
+  
+  
+    .purpleimg {
+      width: 15px;
+      height: 10px;
+      padding-right: 40px;
+      padding-top: 20px;
+  
+    }
+  
+    .purplebox h2 {
+      margin: 5% 10%;
+      width: 200px;
+      color: white;
+      font-size: smaller;
+    }
+  
+    .purplebox img {
+      width: 80px;
+      height: 50px;
+      margin-top: 5px;
+  
+    }
+  
+  }
+  
+  
+  
+  /* media */
+  
+  @media screen and (max-width: 1328px) {
+  
+    .h1managetheteam {
+      width: 37vw;
+      text-align: center;
+      font-size: 34px;
+      margin-left: 420px;
+      opacity: 0.7;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      margin-top: 10px;
+  
+    }
+  
+    .save {
+  
+      border-radius: 20px;
+      width: 60px;
+      height: 20px;
+      text-align: center;
+      /* align-content: center; */
+      background-color: #81C43B;
+      color: white;
+      font-size: 10px;
+  
+    }
+  
+  
+  
+    .getaccount59 {
+  
+      width: 80px;
+      height: 25px;
+      text-align: center;
+      /* align-content: center; */
+      font-size: 10px;
+    }
+  
+  
+    .saveendget {
+      display: flex;
+      background-color: #F2F9EB;
+      border-radius: 20px;
+      margin-right: 200px;
+    }
+  
+    .lorem1 {
+      margin-left: 500px;
+      width: 350px;
+      height: 35px;
+      margin-top: 20px;
+      text-align: center;
+  
+    }
+  
+  
+    .graph1 {
+      margin: 10px 310px;
+      width: 650px;
+    }
+  
+  
+  
+    #email {
+      margin-left: 550px;
+      margin-top: 10px;
+      height: 35px;
+      width: 190px;
+    }
+  
+  
+    .mailbox {
+      margin-top: 40px;
+      display: flex;
+  
+    }
+  
+  
+    .tryitfree {
+      margin-top: 10px;
+      height: 35px;
+      width: 90px;
+      text-align: center;
+      padding-top: 5px;
+      background-color: #794CFF;
+      color: white;
+    }
+  
+  }
+  
+  
+  /* media */
+  
+  @media screen and (max-width: 1133px) {
+  
+  
+    .graph1 {
+      margin: 10px 230px;
+      width: 650px;
+    }
+  
+    .h1managetheteam {
+      width: 45vw;
+      text-align: center;
+      font-size: 34px;
+      margin-left: 320px;
+      opacity: 0.7;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      margin-top: 10px;
+  
+    }
+  
+  
+    #email {
+      margin-left: 470px;
+      margin-top: 10px;
+      height: 35px;
+      width: 190px;
+    }
+  
+  
+    .mailbox {
+      margin-top: 40px;
+      display: flex;
+  
+    }
+  
+  
+    .tryitfree {
+      margin-top: 10px;
+      height: 35px;
+      width: 90px;
+      text-align: center;
+      padding-top: 5px;
+      background-color: #794CFF;
+      color: white;
+    }
+  
+  
+    .lorem1 {
+      margin-left: 400px;
+      width: 350px;
+      height: 35px;
+      margin-top: 20px;
+      text-align: center;
+  
+    }
+  
+  
+    .socialmedia {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      width: 50px;
+      margin-left: 250px;
+      margin-top: 20px;
+    }
+  
+    .griditem {
+      height: 50px;
+      width: 150px;
+      column-gap: 30px;
+  
+    }
+  
+    .trustedbyover {
+      margin: 10px 430px;
+      width: 400px;
+  
+    }
+  
+    .purplebox {
+      width: 45vw;
+      height: 13vh;
+      margin: 0% 30%;
+      display: flex;
+      background-color: #796EFF;
+      border-radius: 15px;
+      gap: 10px;
+  
+  
+    }
+  
+  
+    .surweybox {
+      height: 70vh;
+      width: 100%;
+      margin-top: 20px;
+      background-color: #f1eff4;
+      display: flex;
+      gap: 100px;
+  
+    }
+  
+    #commentphoto {
+      margin-top: 30px;
+      width: 30vw;
+      height: 60vh;
+      margin-left: 8%;
+    }
+  
+    .surway1 {
+  
+      width: 60%;
+      height: 110px;
+      justify-content: center;
+      padding-top: 10px;
+      padding-left: 20px;
+      background-color: rgb(247, 245, 245);
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      opacity: 0.7;
+  
+    }
+  
+  
+  
+    .allsurway {
+      height: 300px;
+      width: 400px;
+      margin-left: 150px;
+      margin-top: 25px;
+  
+    }
+  
+  
+    .secondgrahy {
+      width: 100%;
+      display: flex;
+      background-color: #F0EBFA;
+    }
+  
+  
+    .graphytheory {
+      width: 40%;
+      align-content: center;
+      justify-content: center;
+      padding-left: 60px;
+      opacity: 0.9;
+  
+    }
+  
+    #graphimg {
+      height: 450px;
+      width: 600px;
+    }
+  
+  
+  
+  }
+  
+  
+  
+  /* media 1060 */
+  
+  @media screen and (max-width: 1060px) {
+  
+    .getlogin {
+      display: flex;
+      gap: 1vw;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: 10px;
+  
+    }
+  
+    .graph1 {
+      margin: 10px 180px;
+      width: 650px;
+    }
+  
+  
+    .h1managetheteam {
+      width: 50vw;
+      text-align: center;
+      font-size: 33px;
+      margin-left: 260px;
+      opacity: 0.7;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      margin-top: 10px;
+  
+    }
+  
+    .save {
+  
+      border-radius: 20px;
+      width: 60px;
+      height: 20px;
+      text-align: center;
+      background-color: #81C43B;
+      color: white;
+      font-size: 10px;
+      margin-right: 10px;
+  
+    }
+  
+  
+  
+    .getaccount59 {
+  
+      width: 80px;
+      height: 25px;
+      text-align: center;
+      font-size: 10px;
+    }
+  
+  
+    .saveendget {
+      display: flex;
+      background-color: #F2F9EB;
+      border-radius: 20px;
+      margin-right: 400px;
+  
+    }
+  
+    .lorem1 {
+      margin-left: 300px;
+      width: 350px;
+      height: 35px;
+      margin-top: 20px;
+      text-align: center;
+  
+    }
+  
+  
+  
+    #email {
+      margin-left: 320px;
+      margin-top: 10px;
+      height: 35px;
+      width: 200px;
+    }
+  
+  
+    .mailbox {
+      margin-top: 30px;
+      display: flex;
+  
+    }
+  
+  
+    .tryitfree {
+      margin-top: 10px;
+      height: 35px;
+      width: 100px;
+      text-align: center;
+      padding-top: 5px;
+      background-color: #794CFF;
+      color: white;
+    }
+  
+  
+    .bothsaveget {
+      margin-left: 450px;
+      margin-top: 100px;
+      display: flex;
+  
+  
+    }
+  
+    .socialmedia {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      width: 20px;
+      margin-left: 160px;
+      margin-top: 20px;
+    }
+  
+    .trustedbyover {
+      margin: 10px 340px;
+      width: 400px;
+  
+    }
+  
+  
+  
+    .customerlove {
+      width: 27%;
+      text-align: center;
+      margin-left: 370px;
+  
+    }
+  
+  
+    .h2customerlove {
+      width: 22vw;
+      margin-left: 20px;
+      margin-top: 20px;
+      font-size: 25px;
+  
+    }
+  
+  
+    .customercircle {
+      display: flex;
+      width: 23%;
+      margin: 3% 30%;
+  
+    }
+  
+    .circle2 {
+      margin-left: 100px;
+  
+    }
+  
+    .circle3 {
+      margin-left: 100px;
+  
+    }
+  
+    .circletext1 {
+      padding: 5px 10px;
+      opacity: 0.8;
+      font-size: 10px;
+  
+    }
+  
+  
+  
+    .surway1 {
+  
+      width: 90%;
+      height: 110px;
+      justify-content: center;
+      padding-top: 10px;
+      padding-left: 0px;
+      background-color: rgb(247, 245, 245);
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      opacity: 0.7;
+  
+    }
+  
+    .socialmedia {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      width: 30px;
+      margin-left: 140px;
+      margin-top: 20px;
+    }
+  
+  
+    .h2makeyour {
+      margin: 10px 300px;
+      opacity: 0.8;
+      font-size: 23px;
+      width: 400px;
+  
+    }
+  
+    /* 920 Tablet */
+  
+    @media screen and (max-width: 949px) {
+  
+  
+      .purplebox {
+        width: 60vw;
+        height: 15vh;
+        margin: 0% 20%;
+        display: flex;
+        background-color: #796EFF;
+        border-radius: 15px;
+        gap: 10px;
+  
+      }
+  
+  
+  
+  
+  
+  
+      /* .purpleimg{
+    width:40px;
+    height:10px;
+   padding-right:0px;
+   padding-top:1px;
+  
+  }
+  
+  .purplebox h2{
+  margin:5% 23%;
+  width:900px;
+  color:white;
+  font-size:10px;
+  
+  }
+  */
+      .purplebox img {
+        width: 120px;
+        height: 70px;
+        margin-top: 0px;
+        margin-left: 300px;
+  
+  
+      }
+  
+  
+  
+      .graph1 {
+        margin: 10px 110px;
+        width: 650px;
+      }
+  
+  
+      .h1managetheteam {
+        width: 50vw;
+        text-align: center;
+        font-size: 32px;
+        margin-left: 200px;
+        opacity: 0.7;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+  
+      }
+  
+      .bothsaveget {
+        margin-left: 360px;
+        margin-top: 100px;
+        display: flex;
+  
+  
+      }
+  
+  
+  
+      .lorem1 {
+        margin-left: 260px;
+        width: 360px;
+        height: 35px;
+        margin-top: 20px;
+        text-align: center;
+  
+      }
+  
+  
+  
+      #email {
+        margin-left: 320px;
+        margin-top: 10px;
+        height: 35px;
+        width: 200px;
+      }
+  
+  
+      .mailbox {
+        margin-top: 50px;
+        display: flex;
+  
+      }
+  
+      .trustedbyover {
+        margin: 10px 200px;
+        width: 400px;
+  
+      }
+  
+      .socialmedia {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        width: 10px;
+        margin-left: 50px;
+        margin-top: 20px;
+      }
+  
+    }
+  
+  
+    .customercircle {
+      display: flex;
+      width: 13%;
+      margin: 3% 26%;
+  
+    }
+  
+    .circle2 {
+      margin-left: 100px;
+  
+    }
+  
+    .circle3 {
+      margin-left: 100px;
+  
+    }
+  
+    .circletext1 {
+      padding: 5px 10px;
+      opacity: 0.8;
+      font-size: 8px;
+  
+    }
+  
+  }
+  
+  
+  
+  /* media 890px for mobile view*/
+  
+  @media screen and (max-width: 890px) {
+  
+    .graph1 {
+      margin: 10px 110px;
+      width: 650px;
+      padding-top: 50px;
+    }
+  
+  
+    ul {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      text-decoration: none;
+      display: flex;
+      gap: 40px;
+      list-style: none;
+      opacity: 0.7;
+      display: none;
+  
+    }
+  
+  
+    .h1managetheteam {
+      width: 65vw;
+      text-align: center;
+      font-size: 50px;
+      margin-left: 100px;
+      opacity: 0.7;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      margin-top: 10px;
+  
+    }
+  
+  
+  
+    .save {
+  
+      border-radius: 20px;
+      width: 60px;
+      height: 20px;
+      text-align: center;
+      background-color: #81C43B;
+      color: white;
+      font-size: 10px;
+      margin-right: 90px;
+      display: none;
+  
+    }
+  
+  
+  
+    .getaccount59 {
+  
+      width: 200px;
+      height: 25px;
+      text-align: center;
+      font-size: 20px;
+      background-color: #d3e9bc;
+      border-radius: 20px;
+      position: absolute;
+      top: 150px;
+      right: 340px;
+  
+    }
+  
+  
+    .saveendget {
+      display: flex;
+      background-color: #F2F9EB;
+      border-radius: 20px;
+      margin-right: 400px;
+  
+    }
+  
+    .lorem1 {
+      margin-left: 140px;
+      width: 580px;
+      height: 35px;
+      margin-top: 20px;
+      text-align: left;
+      font-size: 34px;
+  
+    }
+  
+  
+  
+    #email {
+      margin-left: 180px;
+      margin-top: 55px;
+      height: 45px;
+      width: 500px;
+    }
+  
+  
+    .mailbox {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: row;
+  
+  
+    }
+  
+  
+    .tryitfree {
+  
+      margin-top: 120px;
+      height: 43px;
+      width: 510px;
+      text-align: center;
+      font-size: 30px;
+      padding-top: 5px;
+      background-color: #794CFF;
+      color: white;
+      position: absolute;
+      right: 150px;
+      text-shadow: 3px 3px 1px black;
+    }
+  
+  
+    .bothsaveget {
+      margin-left: 450px;
+      margin-top: 100px;
+      display: flex;
+  
+  
+    }
+  
+  
+  
+  
+    .surweybox {
+      height: 70vh;
+      width: 100%;
+      /* margin-top:10px; */
+      background-color: #f1eff4;
+      display: grid;
+      grid-template-columns: 1fr;
+  
+    }
+  
+  
+    .allsurway {
+      height: 300px;
+      width: 110%;
+      margin-left: 0px;
+      margin-top: ;
+  
+    }
+  
+  
+  
+    .h2makeyour {
+      margin: 10px 250px;
+      opacity: 0.8;
+      font-size: 26px;
+      width: 400px;
+      position: relative;
+      top: 950px;
+      font-size: 30px;
+    }
+  
+  
+  
+    .makeeasier {
+      height: 30vh;
+      width: 80%;
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 70%;
+      margin-left: 15%;
+      margin-top: 950px;
+      opacity: 0.8;
+      text-align: center;
+    }
+  
+  
+    .surway1 {
+  
+      width: 90%;
+      height: 200px;
+      justify-content: center;
+      padding-top: 10px;
+      padding-left: 0px;
+      background-color: rgb(247, 245, 245);
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      opacity: 0.7;
+      text-align: center;
+      font-size: 35px;
+    }
+  
+  
+  
+    #commentphoto {
+      margin-top: 30px;
+      width: 75vw;
+      height: 60vh;
+      margin-left: 8%;
+    }
+  
+    #box4 {
+      display: none;
+    }
+  
+  
+    .secondgrahy {
+      margin-top: 470px;
+      width: 100%;
+      background-color: #F0EBFA;
+      display: flex;
+      flex-direction: column-reverse;
+  
+    }
+  
+    .graphytheory {
+      width: 40%;
+      align-content: center;
+      justify-content: center;
+      padding-left: 60px;
+      opacity: 0.9;
+  
+    }
+  
+    .box1 {
+      font-size: 24px;
+      width: 400px;
+      margin-left: 70px;
+    }
+  
+    .viewmore {
+      height: 5vh;
+      width: 47vw;
+      margin: 10px 80px;
+      background-color: #bdb9df;
+      /* color:#4234d7; */
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 2px blue;
+      text-shadow: 2px 2px 2px blue;
+  
+    }
+  
+    .boxphoto {
+      margin-top: 50px;
+      height: 80px;
+      width: 80px;
+    }
+  
+    #graphimg {
+      height: 450px;
+      width: 100%;
+    }
+  
+    .h2weworkhow {
+      width: 300px;
+      font-size: 35px;
+      margin: 0 200px;
+    }
+  
+    .loremwework {
+      width: 430px;
+      margin: 0 110px;
+    }
+  
+    .getbutton {
+      width: 40vw;
+      height: 5vh;
+      margin-left: 130px;
+      font-size: 20px;
+      border-radius: 10px;
+      text-shadow: 2px 2px black;
+    }
+  
+  
+  
+  
+    .h2customerlove {
+      width: 35vw;
+      font-size: 28px;
+      position: relative;
+      right: 140px;
+      margin-top: 90px;
+  
+  
+    }
+  
+    .customerlovep {
+  
+      width: 520px;
+      position: relative;
+      top: 70px;
+      right: 190px;
+      font-size: 40px;
+  
+    }
+  
+    .customercircle {
+      display: block;
+      width: 50%;
+      margin: 20% 50%;
+  
+    }
+  
+  
+    .circle2 {
+      margin-left: 100px;
+      display: none;
+  
+    }
+  
+    .circle3 {
+      margin-left: 100px;
+      display: none;
+  
+    }
+  
+    .circletext1 {
+      padding: 0px 1px;
+      opacity: 0.8;
+      font-size: 15px;
+  
+    }
+  
+  
+    #circletext1 {
+      display: none;
+    }
+  
+  
+    #circletext2 {
+      display: none;
+    }
+  
+  
+    .purplebox {
+      width: 90vw;
+      height: 34vh;
+      margin: 0% 0%;
+      display: flex;
+      flex-direction: column;
+      background-color: #796EFF;
+      border-radius: 0px;
+      position: relative;
+      top: 580%;
+  
+  
+  
+    }
+  
+    .purplebox h2 {
+      font-size: 40px;
+      width: 500px;
+      margin-left: 170px;
+    }
+  
+    .purplebox img {
+      width: 200px;
+      height: 70px;
+      margin-bottom: ;
+      margin-left: 200px;
+  
+  
+    }
+  
+    #purpleimg1 {
+      position: relative;
+      bottom: 63px;
+    }
+  
+    #purpleimg2 {
+      position: relative;
+      bottom: 135px;
+      left: 310px;
+    }
+  
+    #noun {
+      display: none;
+    }
+  
+  
+  
+    .footer {
+      margin-top: 10px;
+      width: 100%;
+      height: 40vh;
+      border: 2px solid black;
+      display: grid;
+      grid-template-columns: 10vw;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      column-gap: 8%;
+      padding-top: 50px;
+      padding-left: 100px;
+      background-color: #1D2830;
+      color: white;
+  
+  
+    }
+  
+    .allfooter {
+  
+      height: 10px;
+      font-size: 17px;
+  
+    }
+  
+    .footerphoto1 {
+      width: 75%;
+      margin-left: 0px;
+      margin-top: 10px;
+      height: 50px;
+      width: 120px;
+  
+    }
+  
+    #downsign {
+      margin-left: 500px;
+      font-size: 30px;
+      margin-bottom: 50px;
+    }
+  
+    .line {
+      width: 90%;
+      height: 10px;
+      border: 6px solid #794CFF;
+    }
+  
+  
+  }
+  
+  /* media 843px */
+  
+  @media screen and (max-width: 834px) {
+  
+    .tryitfree {
+  
+      margin-top: 120px;
+  
+      height: 43px;
+      width: 50vw;
+      text-align: center;
+      font-size: 30px;
+      padding-top: 5px;
+      background-color: #794CFF;
+      color: white;
+      /* position:relative;  */
+      right: 200px;
+      text-shadow: 3px 3px 1px black;
+    }
+  
+    .graph1 {
+      margin: 10px 100px;
+      width: 600px;
+    }
+  
+  
+    .purplebox {
+      width: 90vw;
+      height: 38vh;
+      margin: 0% 0%;
+      display: flex;
+      flex-direction: column;
+      background-color: #796EFF;
+      border-radius: 0px;
+      position: relative;
+      top: 300%;
+      bottom: 20px;
+  
+  
+    }
+  
+    .purplebox h2 {
+      font-size: 37px;
+      width: 500px;
+      margin-left: 170px;
+    }
+  
+    .purplebox img {
+      width: 200px;
+      height: 270px;
+      margin-top: 0px;
+      margin-left: 270px;
+  
+  
+    }
+  
+  
+  
+    .footer {
+      margin-top: 0px;
+      width: 100%;
+      height: 40vh;
+      border: 2px solid black;
+      display: grid;
+      grid-template-columns: 10vw;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      column-gap: 0%;
+      padding-top: 10px;
+      padding-left: 100px;
+      background-color: #1D2830;
+      color: white;
+  
+  
+    }
+  
+    .allfooter {
+  
+      height: 10px;
+      font-size: 17px;
+      width: 100px;
+  
+    }
+  
+    .footerphoto1 {
+      width: 85%;
+      margin-left: 0px;
+      margin-top: 10px;
+      height: 50px;
+      width: 150px;
+  
+    }
+  
+    .h2weworkhow {
+      width: 300px;
+      font-size: 35px;
+      margin: 0 200px;
+    }
+  
+  
+    .purplebox img {
+      width: 200px;
+      height: 70px;
+      margin-bottom: ;
+      margin-left: 150px;
+  
+  
+    }
+  
+    #purpleimg1 {
+      position: relative;
+      bottom: 63px;
+    }
+  
+    #purpleimg2 {
+      position: relative;
+      bottom: 135px;
+      left: 310px;
+    }
+  
+  
+    .customerlovep {
+  
+      width: 480px;
+      position: relative;
+      top: 10px;
+      right: 250px;
+      font-size: 27px;
+  
+    }
+  
+    .socialmedia {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      width: 1px;
+      margin-left: 50px;
+      margin-top: 20px;
+    }
+  
+    .griditem {
+      width: 50px;
+      margin-left: 50px;
+    }
+  
+    .h2customerlove {
+      width: 45vw;
+  
+      font-size: 30px;
+      position: relative;
+      left: -230px;
+      margin-top: 40px;
+  
+  
+    }
+  
+    .h2makeyour {
+      margin: 10px 230px;
+      opacity: 0.8;
+      font-size: 26px;
+      width: 400px;
+      position: relative;
+      top: 950px;
+      font-size: 30px;
+    }
+  
+  
+    .h1managetheteam {
+      width: 68vw;
+      text-align: center;
+      font-size: 35px;
+      margin-left: 70px;
+      opacity: 0.7;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      margin-top: 10px;
+      animation-name: h1manage;
+      animation-duration: 3s;
+      animation-direction: alternate-reverse;
+      animation-iteration-count: 1;
+      position: relative;
+  
+    }
+  
+    .lorem1 {
+      margin: 30px 0 0 100px;
+      font-size: 30px;
+      width: 500px;
+    }
+  
+  
+  
+    .getaccount59 {
+  
+      width: 200px;
+      height: 25px;
+      text-align: center;
+      font-size: 20px;
+      background-color: #d3e9bc;
+      border-radius: 20px;
+      position: absolute;
+      top: 150px;
+      right: 300px;
+  
+    }
+  
+  
+    .saveendget {
+      display: flex;
+      background-color: #F2F9EB;
+      border-radius: 20px;
+      margin-right: 400px;
+  
+    }
+  
+  
+  
+  
+    #email {
+      margin-left: 140px;
+      margin-top: 55px;
+      height: 45px;
+      width: 50vw;
+    }
+  
+  
+    .mailbox {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: row;
+  
+  
+    }
+  
+    .graph1 {
+      margin: 10px 40px;
+      width: 80vw;
+      padding-top: 50px;
+    }
+  
+  
+  
+  }
+  
+  /* 709px media */
+  
+  @media screen and (max-width: 710px) {
+  
+  
+  
+    .purplebox img {
+      width: 200px;
+      height: 70px;
+      margin-bottom: ;
+      margin-left: 60px;
+  
+  
+    }
+  
+    #purpleimg1 {
+      position: relative;
+      bottom: 35px;
+    }
+  
+    #purpleimg2 {
+      position: relative;
+      bottom: 105px;
+      left: 200px;
+    }
+  
+  
+    .makeeasier {
+      height: 30vh;
+      width: 80%;
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 70%;
+      margin-left: 15%;
+      margin-top: 750px;
+      opacity: 0.8;
+      text-align: center;
+      position: relative;
+      bottom: 60px;
+    }
+  
+    .h2makeyour {
+      margin: 10px 150px;
+      opacity: 0.8;
+      font-size: 21px;
+      width: 400px;
+      position: relative;
+      top: 780px;
+      font-size: 30px;
+    }
+  
+  
+  
+  
+    .h1managetheteam {
+      width: 55vw;
+      text-align: center;
+      font-size: 26px;
+      margin-left: 90px;
+      opacity: 0.7;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      margin-top: 20px;
+      animation-name: h1manage;
+      animation-duration: 3s;
+      animation-direction: alternate-reverse;
+      animation-iteration-count: 1;
+      position: relative;
+  
+    }
+  
+  
+    .lorem1 {
+      margin: 30px 0 0 100px;
+      font-size: 22px;
+      width: 400px;
+    }
+  
+  
+  
+  
+    .tryitfree {
+  
+      margin-top: 120px;
+  
+      height: 43px;
+      width: 50vw;
+      text-align: center;
+      font-size: 30px;
+      padding-top: 5px;
+      background-color: #794CFF;
+      color: white;
+      /* position:relative;  */
+      right: 200px;
+      text-shadow: 3px 3px 1px black;
+    }
+  
+  
+    .graph1 {
+      margin: 10px 40px;
+      width: 80vw;
+      padding-top: 50px;
+    }
+  
+  
+  
+    .socialmedia {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      width: 1px;
+      margin-left: 50px;
+      margin-top: 20px;
+    }
+  
+    .griditem {
+      width: 6vw;
+      margin-left: 50px;
+    }
+  
+  
+    #img1 {
+      width: 8vw;
+    }
+  
+  
+  
+    .h2customerlove {
+      width: 35vw;
+  
+      font-size: 23px;
+      position: relative;
+      left: -230px;
+      margin-top: 40px;
+  
+  
+    }
+  
+  
+    .customerlovep {
+  
+      width: 370px;
+      position: relative;
+      top: 10px;
+      right: 280px;
+      font-size: 20px;
+  
+    }
+  
+  
+  
+  
+    .getaccount59 {
+  
+      width: 100px;
+      height: 25px;
+      text-align: center;
+      font-size: 12px;
+      background-color: #d3e9bc;
+      border-radius: 20px;
+      position: relative;
+      top: 5px;
+      right: 230px;
+  
+    }
+  
+  
+    .saveendget {
+      display: flex;
+      background-color: #F2F9EB;
+      border-radius: 20px;
+      margin-right: 400px;
+  
+    }
+  
+  
+  
+  
+    #email {
+      margin-left: 140px;
+      margin-top: 55px;
+      height: 45px;
+      width: 50vw;
+    }
+  
+  
+    .trustedbyover {
+      width: 60vw;
+      font-size: 15px;
+      margin: 0 20vw;
+    }
+  
+  
+  
+    .allsurway {
+      height: 300px;
+      width: 110%;
+      margin-right: 270px;
+  
+  
+    }
+  
+  
+  
+  
+    .makeeasier {
+      height: 30vh;
+      width: 80%;
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 70%;
+      margin-left: 20px;
+      margin-top: 820px;
+      opacity: 0.8;
+      text-align: center;
+  
+  
+    }
+  
+    .box1 h4 {
+      font-size: 25px;
+    }
+  
+    .box1 p {
+      font-size: 20px;
+      width: 100%;
+    }
+  
+    .boxphoto {
+      height: 50px;
+      width: 50px
+    }
+  
+  
+    .surway1 {
+  
+      width: 65%;
+      height: 200px;
+      justify-content: center;
+      padding-top: 10px;
+      padding-left: 50px;
+      background-color: rgb(247, 245, 245);
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      opacity: 0.7;
+      text-align: center;
+      font-size: 25px;
+      padding-right: 100px;
+      text-align: center;
+  
+  
+    }
+  
+    .line {
+      width: 65%;
+      height: 10px;
+      border: 6px solid #794CFF;
+    }
+  
+  
+  
+    .h2weworkhow {
+      width: 300px;
+      font-size: 18px;
+      margin: 0 100px;
+    }
+  
+    .loremwework {
+      width: 430px;
+      margin: 0 50px;
+      font-size: 15px;
+    }
+  
+  
+    .secondgrahy {
+      margin-top: 300px;
+      height: 80vh;
+      width: 100%;
+      background-color: #F0EBFA;
+      display: flex;
+      flex-direction: column-reverse;
+  
+    }
+  
+  
+    .getbutton {
+      width: 25vw;
+      height: 4vh;
+      margin-left: 130px;
+      font-size: 17px;
+      border-radius: 10px;
+      text-shadow: 2px 2px black;
+    }
+  
+  
+    .circletext1 {
+      padding: 0px 1px;
+      opacity: 0.8;
+      font-size: 10px;
+  
+  
+    }
+  
+  
+    .customercircle {
+      display: block;
+      width: 13%;
+      margin: 10% 40%;
+  
+    }
+  
+  
+  
+  
+    .purplebox {
+      width: 100%;
+      height: 30vh;
+      margin: 0% 0%;
+      display: flex;
+      flex-direction: column;
+      background-color: #796EFF;
+      border-radius: 0px;
+      position: relative;
+      top: 300%;
+      bottom: 20px;
+  
+  
+    }
+  
+    .purplebox h2 {
+      font-size: 25px;
+      width: 50vw;
+      margin-left: 160px;
+    }
+  
+    .purplebox img {
+      width: 22vw;
+      height: 10vh;
+      margin-top: 0px;
+      margin-left: 230px;
+  
+  
+    }
+  
+  
+    .footer {
+      margin-top: 0px;
+      width: 100%;
+      height: 30vh;
+      border: 2px solid black;
+      display: grid;
+      grid-template-columns: 10vw;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      column-gap: 0%;
+      padding-top: 10px;
+      padding-left: 100px;
+      background-color: #1D2830;
+      color: white;
+  
+  
+    }
+  
+    .allfooter {
+  
+      height: 5px;
+      font-size: 17px;
+      width: 100px;
+  
+    }
+  
+    .footerphoto1 {
+      width: 85%;
+      margin-left: 0px;
+      margin-top: 10px;
+      height: 45px;
+      width: 100px;
+  
+    }
+  
+    #downsign {
+      margin-left: 320px;
+      font-size: 20px;
+      margin-bottom: 50px;
+    }
+  
+  
+    .allsurway {
+      width: 138vw;
+    }
+  
+    #commentphoto {
+      width: 55vw;
+      height: 35vh;
+      margin: 40px 130px;
+    }
+  
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 588px) {
+  
+    .boxphoto {
+      height: 80px;
+      width: 80px;
+      margin-left: 80px;
+    }
+  
+    .box1 h4 {
+      margin-left: 30px;
+      width: 300px;
+    }
+  
+    .box1 p {
+      margin-left: 30px;
+      width: 300px;
+      font-size: 20px;
+    }
+  
+  
+  
+  
+    .allsurway p {
+      width: 130%;
+  
+  
+  
+    }
+  
+  
+    .allsurway {
+      width: 138vw;
+      text-align: center;
+  
+    }
+  
+  
+    #downsign {
+      margin-left: 220px;
+      font-size: 20px;
+      margin-bottom: 50px;
+    }
+  
+  
+  
+    .purplebox img {
+      width: 200px;
+      height: 70px;
+      margin-bottom: ;
+      margin-left: 60px;
+  
+  
+    }
+  
+    #purpleimg1 {
+      position: relative;
+      bottom: 35px;
+    }
+  
+    #purpleimg2 {
+      position: relative;
+      bottom: 105px;
+      left: 200px;
+    }
+  
+    .secondgrahy {
+      margin-top: 180px;
+      height: 70vh;
+      width: 100%;
+      background-color: #F0EBFA;
+      display: flex;
+      flex-direction: column-reverse;
+  
+    }
+  
+  
+    .makeeasier {
+      height: 30vh;
+      width: 80%;
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 70%;
+      margin-left: 20px;
+      margin-top: 1000px;
+      opacity: 0.8;
+      text-align: center;
+  
+  
+    }
+  
+    .h2makeyour {
+      margin: 20px 120px;
+      opacity: 0.8;
+      font-size: 20px;
+      width: 400px;
+      position: relative;
+      top: 750px;
+      font-size: 30px;
+    }
+  
+  
+  
+    .box1 {
+      position: relative;
+      bottom: 200px;
+      right: 40px;
+    }
+  
+    .trustedbyover {
+      width: 60vw;
+      font-size: 10px;
+      margin: 0 20vw;
+    }
+  
+    .socialmedia {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      width: 1px;
+      margin-left: 50px;
+      margin-top: 20px;
+    }
+  
+    .griditem {
+      width: 6vw;
+      margin-left: 35px;
+    }
+  
+  
+    #img1 {
+  
+      width: 8vw;
+    }
+  
+  
+  
+  
+    .h2weworkhow {
+      width: 300px;
+      font-size: 18px;
+      margin: 0 70px;
+    }
+  
+    .loremwework {
+      width: 300%;
+      margin: 0 5px;
+      font-size: 16px;
+    }
+  
+  
+  
+  
+  
+    .getbutton {
+      width: 19vw;
+      height: 4vh;
+      margin-left: 130px;
+      font-size: 13px;
+      border-radius: 10px;
+      text-shadow: 2px 2px black;
+    }
+  
+  
+    .h2customerlove {
+      width: 35vw;
+  
+      font-size: 18px;
+      position: relative;
+      left: -230px;
+      margin-top: 40px;
+  
+  
+    }
+  
+  
+    .customerlovep {
+  
+      width: 50vw;
+      position: relative;
+      top: 10px;
+      right: 260px;
+      font-size: 16px;
+  
+    }
+  
+  
+    .tryitfree {
+  
+      margin-top: 120px;
+  
+      height: 4vh;
+      width: 40vw;
+      text-align: center;
+      font-size: 20px;
+      padding-top: 5px;
+      background-color: #794CFF;
+      color: white;
+      /* position:relative;  */
+      right: 160px;
+      text-shadow: 3px 3px 1px black;
+    }
+  
+  
+    #email {
+      margin-left: 150px;
+      margin-top: 55px;
+      height: 45px;
+      width: 40vw;
+    }
+  
+  
+  
+    .h1managetheteam {
+      width: 55vw;
+      text-align: center;
+      font-size: 26px;
+      margin-left: 90px;
+      opacity: 0.7;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      margin-top: 20px;
+      animation-name: h1manage;
+      animation-duration: 3s;
+      animation-direction: alternate-reverse;
+      animation-iteration-count: 1;
+      position: relative;
+  
+    }
+  
+  
+    .lorem1 {
+      margin: 30px 0 0 100px;
+      font-size: 17px;
+      width: 60vw;
+    }
+  
+  }
+  
+  
+  @media screen and (max-width: 470px) {
+  
+    .box1 h4 {
+      font-size: 25px;
+    }
+  
+    .box1 p {
+      font-size: 20px;
+      width: 100%;
+    }
+  
+    .boxphoto {
+      height: 50px;
+      width: 50px
+    }
+  
+  
+  
+    #purpleimg1 {
+      position: relative;
+      bottom: 20px;
+      right: 90px;
+  
+    }
+  
+    #purpleimg2 {
+      position: relative;
+      bottom: 80px;
+      left: 60px;
+    }
+  
+  
+  
+  
+    .tryitfree {
+  
+      margin-top: 120px;
+  
+      height: 6vh;
+      width: 44vw;
+      text-align: center;
+      font-size: 20px;
+      padding-top: 5px;
+      background-color: #794CFF;
+      color: white;
+      /* position:relative;  */
+      right: 140px;
+      text-shadow: 3px 3px 1px black;
+    }
+  
+  
+    .getlogin {
+  
+      width: 30vw;
+      margin-right: 100px;
+  
+    }
+  
+    .login {
+      width: 20vw;
+  
+    }
+  
+    .getstarted {
+  
+      width: 36vw;
+      height: 5vh;
+      font-size: 9px;
+  
+    }
+  
+  
+    .teamflow {
+  
+      margin-left: 100px;
+      font-size: 10px;
+    }
+  
+    .getaccount59 {
+      position: relative;
+      right: 330px;
+    }
+  
+  
+  
+    .h1managetheteam {
+      width: 64vw;
+      text-align: center;
+      font-size: 16px;
+      margin-left: 50px;
+      opacity: 0.7;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      margin-top: 20px;
+      animation-name: h1manage;
+      animation-duration: 3s;
+      animation-direction: alternate-reverse;
+      animation-iteration-count: 1;
+      position: relative;
+  
+    }
+  
+    .lorem1 {
+      margin: 30px 0 0 80px;
+      font-size: 12px;
+      width: 50vw;
+      text-align: center;
+    }
+  
+  
+  
+  
+  
+  
+    #email {
+      margin-left: 100px;
+      margin-top: 55px;
+      height: 45px;
+      width: 40vw;
+    }
+  
+  
+  
+    .socialmedia {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      width: 1px;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+  
+    .griditem {
+      width: 1vw;
+      margin-left: 40px;
+    }
+  
+  
+    #img1 {
+      width: 8vw;
+    }
+  
+  
+    .trustedbyover {
+      width: 49vw;
+      font-size: 6.5px;
+      margin: 0 20vw;
+    }
+  
+  
+    #commentphoto {
+      width: 65vw;
+      height: 25vh;
+      margin: 40px 50px;
+    }
+  
+  
+    .surway1 h4 {
+      font-size: 17px;
+      position: relative;
+  
+    }
+  
+    .surway1 p {
+      font-size: 15px;
+      width: 260px;
+  
+    }
+  
+    .h2makeyour {
+      margin: 0px 80px;
+      opacity: 0.8;
+      width: 400px;
+      position: relative;
+      top: 700px;
+      font-size: 23px;
+  
+    }
+  
+    .box1 {
+      position: relative;
+      right: 70px;
+      width: 60vw;
+    }
+  
+  
+  
+    .secondgrahy {
+      margin-top: 170px;
+      height: 70vh;
+      width: 100%;
+      background-color: #F0EBFA;
+      display: flex;
+      flex-direction: column-reverse;
+  
+    }
+  
+  
+    .allsurway p {
+      font-size: 20px;
+      width: 130%;
+      position: relative;
+      right: 34px;
+    }
+  
+    .allsurway h2 {
+      font-size: 20px;
+      width: 130%;
+      margin-left: 200px;
+    }
+  
+  
+    .h2weworkhow {
+      width: 300px;
+      font-size: 12px;
+      margin: 0 10px;
+    }
+  
+    .loremwework {
+      width: 150px;
+      margin: 0 0px;
+      font-size: 8px;
+    }
+  
+  
+  
+  
+  
+    .purplebox {
+      width: 100%;
+      height: 30vh;
+      margin: 0% 0%;
+      display: flex;
+      flex-direction: column;
+      background-color: #796EFF;
+      border-radius: 0px;
+      position: relative;
+      top: 300%;
+      bottom: 20px;
+  
+  
+    }
+  
+    .purplebox h2 {
+      font-size: 18px;
+      width: 50vw;
+      margin-left: 70px;
+    }
+  
+    .purplebox img {
+      width: 30vw;
+      height: 8vh;
+      margin-top: 0px;
+      margin-left: 150px;
+  
+  
+    }
+  
+    .box1 {
+      position: relative;
+      bottom: 230px;
+  
+    }
+  
+  
+  
+  }
+  
+  @media screen and (max-width: 390px) {
+  
+    #surway1text {
+      margin-left: 20px;
+      font-size: 19px;
+  
+    }
+  
+    .seveendget {
+      display: none;
+    }
+  
+    .h2makeyour {
+      margin: 0px 30px;
+      opacity: 0.8;
+      width: 80vw;
+      position: relative;
+      top: 730px;
+      font-size: 24px;
+  
+    }
+  
+    .box1 h4 {
+  
+      position: relative;
+      right: 40px;
+      font-size: 22px;
+  
+    }
+  
+    .secondgrahy {
+      margin-top: 170px;
+      height: 50vh;
+      width: 100%;
+      background-color: #F0EBFA;
+      display: flex;
+      flex-direction: column-reverse;
+  
+    }
+  
+    .loremwework {
+  
+      width: 50vw;
+      font-size: 10px;
+  
+    }
+  
+  
+    .getbutton {
+      width: 30vw;
+      height: 6vh;
+      margin: 0 0 0 50px;
+      font-size: 12px;
+    }
+  
+  
+    .h2customerlove {
+      width: 50vw;
+  
+      font-size: 18px;
+      position: relative;
+      left: -300px;
+      margin-top: 40px;
+  
+  
+    }
+  
+  
+    .customerlovep {
+  
+      width: 75vw;
+      position: relative;
+      top: 10px;
+      right: 336px;
+      font-size: 18px;
+  
+    }
+  
+  
+  
+    #email {
+  
+  
+      margin: 0 70px 0;
+      border: 1px solid black;
+      height: 35px;
+      width: 190px;
+    }
+  
+  
+  
+    .tryitfree {
+  
+      margin-top: 50px;
+  
+      height: 5vh;
+      width: 50vw;
+      text-align: center;
+      font-size: 20px;
+      padding-top: 5px;
+      background-color: #794CFF;
+      color: white;
+      /* position:relative;  */
+      right: 90px;
+      text-shadow: 3px 3px 1px black;
+    }
+  
+  
+    #downsign {
+      margin-left: 150px;
+  
+      font-size: 20px;
+      margin-bottom: 90px;
+    }
+  
+    .graph1 {
+      margin: 0px;
+  
+    }
+  
+  }
+  
+  @media screen and (max-width: 345px) {
+  
+    .h2makeyour {
+      margin: 30px 60px;
+      opacity: 0.8;
+      width: 80vw;
+      position: relative;
+      top: 760px;
+      font-size: 21px;
+  
+    }
+  
+  
+    .box1 {
+      position: relative;
+      right: 70px;
+      width: 60vw;
+    }
+  
+    #box3 h4 {
+      width: 80vw;
+    }
+  
+  
+    #box3 p {
+      width: 90vw;
+      position: relative;
+      right: 40px;
+    }
+  
+    #box2 h4 {
+      width: 80vw;
+    }
+  
+  
+    #box2 p {
+      width: 90vw;
+      position: relative;
+      right: 40px;
+    }
+  
+    #box1 h4 {
+      width: 80vw;
+    }
+  
+  
+    #box1 p {
+      width: 90vw;
+      position: relative;
+      right: 40px;
+    }
+  
+    .h2weworkhow {
+      width: 300px;
+      font-size:8px;
+      position: relative;
+      right: 40px;
+    }
+  
+  
+  
+    .getlogin {
+  
+      width: 50vw;
+      margin-right: 140px;
+      position: relative;
+      right: 50px;
+    }
+  
+    .login {
+      width: 60vw;
+      position: relative;
+  
+    }
+  
+    .getstarted {
+  
+      width: 36vw;
+      height: 5vh;
+      font-size: 9px;
+  
+    }
+  
+  
+    .teamflow {
+  
+      margin-left: 120px;
+      font-size: 10px;
+      position: relative;
+      left: 50px;
+    }
+  
+    .getaccount59 {
+      position: relative;
+      right: 330px;
+    }
+
+    #commentphoto {
+      width: 65vw;
+      height: 20vh;
+      margin: 40px 50px;
+    }
+  
+    .secondgrahy {
+      margin-top: 180px;
+      height:70vh;
+      width: 100%;
+      background-color: #F0EBFA;
+      display: flex;
+      flex-direction: column-reverse;
+  
+    }
+    
+    .loremwework {
+  
+      width: 50vw;
+      font-size:7px;
+  
+    }
+
+    .footerphoto1{
+               height:20px;
+    }
+  
+    .tryitfree {
+  
+      margin-top: 50px;
+  
+      height:7vh;
+      width: 50vw;
+      text-align: center;
+      font-size: 20px;
+      padding-top: 5px;
+      background-color: #794CFF;
+      color: white;
+      /* position:relative;  */
+      right: 90px;
+      text-shadow: 3px 3px 1px black;
+    }
+  }

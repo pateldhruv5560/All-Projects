@@ -1,0 +1,384 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+           background-color:rgb(246, 244, 244);
+           margin-top:5%;
+           margin-left:5%;
+           margin-right:5%;
+}
+
+.logo{
+         width:4vw;
+         margin-right:100px;
+         margin-top:7px;
+          
+         
+}
+
+
+
+
+  .navbar{
+      display: flex;
+      justify-content:space-around;
+      justify-content: center;
+      gap:60px;
+      align-items: center;
+      list-style:none;
+      margin-left:100px;
+      width:70vw;
+      
+   }
+
+   a{
+        text-decoration: none;
+        color:white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+
+   .navbar a:hover{
+                    color:red;
+                    font-size:23px;
+                    transition: .5s all;
+                    gap:20px; 
+                    text-decoration: underline;
+   }
+
+
+.homepage{
+         
+          width:100%; 
+          height:100vh;   
+         background-image:url(../sky_image/click\ path\ background.png);
+         clip-path:polygon( 0 0,100% 0,100% 75%,50% 98%,0 75%);
+         position: relative;
+         background-position:10%;
+        
+              }
+
+
+              .ourclients{
+                             margin:120px 490px;
+                             width:25vw;
+                             font-size:20px;
+                             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                             color:white;
+                            
+              }
+
+            
+
+
+
+
+
+              .welcometoskyh1{
+                               margin:0 400px;
+                               position: relative;
+                               bottom:70px;
+                               width:50vw;
+                               font-size:60px;
+                               font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                               color:white;
+              }
+
+              .line1{
+                      width:5vw;
+                      border:1px solid rgb(206, 120, 120);
+                      position: relative;
+                      bottom:90px;
+                      left:550px;
+              }
+
+               .point{
+                height:6px;
+                width:6px;
+                border-radius:50px;
+                position: relative;
+                bottom:91px;
+                left:650px;
+                background-color: rgb(218, 115, 115);
+        }
+
+             .line2{
+            
+              width:5vw;
+              border:1px solid rgb(190, 111, 111);
+              position: relative;
+              bottom:95px;
+              left:680px;
+      }
+
+              .welcometoskyp{
+                        
+                       margin-left:450px;
+                       width:30vw;
+                       text-align: center;
+                       position: relative;
+                       bottom:50px;
+                       color:white;
+                       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+              }
+
+
+
+              .button1{
+                          margin-left:500px;
+                          height:6vh;
+                          width:10vw;
+                          font-size:10px;
+                          /* background-color:rgb(231, 11, 11); */
+                          color:white;
+                          font-weight:400;
+                          justify-content: center;
+                          text-align: center;
+                          align-content: center;
+                          border:2px solid white;
+                          font-size:12px;
+                          font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+              }
+
+
+
+              .button1:hover{
+                               background-color:orangered;
+                               transition: .5s; 
+                               width:9.8vw;
+                               height:5.8vh;
+                              
+              }
+
+
+
+
+
+              .button2{
+               height:6vh;
+               width:10vw;
+               border:2px solid white;
+              color:white;
+               margin-left:700px;
+               position: relative;
+               bottom:41px;
+               text-align: center;
+               align-content: center;
+              font-size:12px;
+              font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                          }
+
+
+                          .button2:hover{
+                              background-color:orangered;
+                              transition: .5s; 
+                              width:9.8vw;
+                              height:5.8vh;
+                             
+             }
+
+
+            
+
+                          #nextbutton1{
+                                 
+                                   margin-left:95.6%;
+                                   position: relative;
+                                   bottom:97px;
+                                   
+                               
+                                   }
+
+
+                                   #nextbutton2{
+                                      position: relative;
+                                      left:20px;
+                                      bottom:99px
+                                      
+                                    
+                                  }
+                                  
+                                      
+                 
+                                   
+        
+       #anchor{
+                margin-left:48%;
+                background-color:white;
+               
+                width:3vw;
+                height:6vh;
+                padding:18px 9px;
+                border-radius:50%;
+                position: relative;
+                bottom:37px;
+              
+               
+       }
+
+
+
+    .transperent{
+                  
+                
+                      height:100%;
+                      opacity:0.8;
+                      background-color: rgb(8, 8, 8);
+
+    }
+
+
+                                  
+          
+    #anchor{
+        margin-left:48%;
+        background-color:white;
+       
+        width:3vw;
+        height:6vh;
+        padding:18px 9px;
+        border-radius:50%;
+        position: relative;
+        bottom:37px;
+      
+       
+}
+
+
+
+.transperent{
+          
+        
+              height:100%;
+              opacity:0.8;
+              background-color: rgb(8, 8, 8);
+
+}
+
+.fourdiv{
+         display: flex;
+         width:70vw;
+         margin-left:140px;
+         
+}
+
+.box1{
+    height:50px;
+    width:50px;
+    border:2px solid red;
+    transform: rotate(45deg);
+    margin-bottom:20px;
+   margin-left:100px;
+   
+    
+}
+
+.box2{
+height:50px;
+width:50px;
+border:2px solid black;
+margin-left:90px;
+padding-top:12px;
+}
+
+.box3{
+height:50px;
+width:50px;
+border:2px solid black;
+margin-left:90px;
+padding-top:12px;
+}
+
+.box4{
+height:50px;
+width:50px;
+border:2px solid black;
+margin-left:90px;
+padding-top:12px;
+}
+
+
+.firstbox{
+             
+    width:37vw;
+    text-align: center;
+    margin-right:30px;
+    opacity:0.7;
+   
+}
+
+#glass{
+  transform:rotate(320deg);
+  margin-left:1px;
+  margin-top:20px;
+}
+
+.firstbox h3{
+         margin-top:30px;
+         color:red;
+} 
+
+.firstbox p{
+margin-top:30px;
+
+} 
+
+.secondbox{
+
+width:33vw;
+text-align: center;
+margin-right:30px;
+opacity:0.7;
+}
+
+
+.secondbox h3{
+margin-top:30px;
+} 
+
+.secondbox p{
+margin-top:30px;
+} 
+
+
+.thirdbox{
+
+width:33vw;
+text-align: center;
+margin-right:30px;
+opacity:0.7;
+}
+
+
+.thirdbox h3{
+margin-top:30px;
+} 
+
+.thirdbox p{
+margin-top:30px;
+} 
+
+.forthbox{
+
+width:33vw;
+text-align: center;
+margin-right:30px;
+opacity:0.7;
+}
+
+
+.forthbox h3{
+margin-top:30px;
+} 
+
+.forthbox p{
+margin-top:30px;
+} 
+
+    

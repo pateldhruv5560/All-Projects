@@ -1,0 +1,129 @@
+
+
+
+.oversirvices{
+                 
+    margin:50px 150px;
+    width:70vw;
+    height:60vh;
+    border:2px solid black;
+     background-color:rgb(26, 24, 24);
+     color:white;
+     opacity:0.9;
+    }
+
+
+.servicephoto{
+         width:49%;
+         height:59.6vh;
+         margin-left:545px;
+         position: relative;
+         bottom:410px;
+       
+
+}
+
+
+.oversirvices h1{
+            margin:50px 0;
+            position: relative;
+            left:330px;
+            color:white;
+}
+
+.webdesignh4{
+margin:50px 0;
+position: relative;
+left:410px;
+color:red;
+}
+
+.webdesignlorem{
+
+position: relative;
+left:110px;
+bottom:40px;
+width:400px;
+font-size:10px;
+text-align: right;
+}
+
+.screenicon{
+        border:2px solid white;
+        padding-top:10px;
+      padding-left:10px;
+        height:35px;
+        width:35px;
+        border-radius:50%;
+        background-color:white;
+        position: relative;
+        left:670px;
+        bottom:350px;
+       
+}
+
+
+.paintdesignh4{
+
+position: relative;
+bottom:20px;
+left:400px;
+color:red;
+}
+
+.paintdesignlorem{
+
+position: relative;
+left:110px;
+bottom:30px;
+width:400px;
+font-size:10px;
+text-align: right;
+}
+
+.printdesignicon{
+border:2px solid white;
+padding-top:12px;
+padding-left:7px;
+height:35px;
+width:38px;
+border-radius:50%;
+background-color:white;
+position: relative;
+left:670px;
+bottom:300px;
+
+}
+
+.photographyh4{
+position: relative;
+left:390px;
+bottom:14px;
+color:red;
+}
+
+
+.photographylorem{
+position: relative;
+left:110px;
+bottom:17px;
+width:400px;
+font-size:10px;
+text-align: right;
+}
+
+.photographyhicon{
+border:2px solid white;
+padding-top:13px;
+padding-left:10px;
+height:32px;
+width:35px;
+border-radius:50%;
+background-color:white;
+position: relative;
+left:670px;
+bottom:258px;
+
+}
+
+

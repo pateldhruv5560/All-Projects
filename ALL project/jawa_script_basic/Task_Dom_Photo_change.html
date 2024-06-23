@@ -1,0 +1,118 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+         <style>
+
+           .photo{
+                       height:90vh;
+                       width:100%;
+                       border:2px solid black;
+                       border-radius:20px;
+                      
+                      
+           }
+
+           .photo1{
+            height:100%;
+            background-size: cover;
+            background-position:70% 30%;
+            border-radius:22px;
+            background-image: url(https://media.istockphoto.com/id/539105384/photo/kedarnath-in-india.jpg?s=2048x2048&w=is&k=20&c=13ww9zknEYW4JIdg-i7znM0metLIlnNt31QpgJnSTtg=);
+            display: none;
+           }
+
+           .photo2{
+            height:100%;
+            background-size: cover;
+            background-position:10% 80%;
+            border-radius:22px;
+            background-image: url(https://www.holidify.com/images/bgImages/BADRINATH.jpg);
+            display: none;
+           }
+
+
+           .btn1{
+                   width: 0;
+                   height: 0;
+                   border-left: 30px solid transparent;
+                   border-right: 30px solid transparent;
+                   border-bottom:60px solid #007BFF;
+                   cursor: pointer;
+                   transition: transform 0.2s;
+                   position: absolute;
+                   bottom:380px;
+                   transform:rotate(90deg);
+                   background-color:transparent;
+                
+           }
+
+           .btn2{
+                   width: 0;
+                   height: 0;
+                   border-left: 30px solid transparent;
+                   border-right: 30px solid transparent;
+                   border-bottom:60px solid #007BFF;
+                   cursor: pointer;
+                   transition: transform 0.2s;
+                   position: absolute;
+                   bottom:380px;
+                   left:1465px;
+                   transform:rotate(270deg);
+                   background-color:transparent;
+           }
+         </style>
+
+</head>
+<body>
+    
+              <div class="photo">
+                <div class="photo1"></div>
+                <div class="photo2"></div>
+              </div>
+
+   <button class="btn1" onclick="screen()" onclick="screen2()">1</button>
+
+   <button class="btn2" onclick="screen2()" onclick="screen()">2</button>
+
+
+              <script>
+
+                let change=document.querySelector("photo");
+
+                let photo1=document.querySelector(".photo1");
+                let photo2=document.querySelector(".photo2");
+               
+
+                function screen()
+                {
+                   photo1.style.display="block";
+                   photo2.style.display="none"; 
+                   
+                  //  alert("you switched photo 2");
+                }
+              
+
+                function  screen2()
+                {
+                   photo2.style.display="block";
+                   photo1.style.display="none";
+                  //  alert("you switched photo 1");
+                }
+
+
+            
+               
+
+              </script>
+
+</body>
+</html> 
+
+
+
