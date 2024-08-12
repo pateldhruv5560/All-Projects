@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<style>
+      body {
+            margin: 5% 40%;
+            width: 50%;
+
+
+
+      }
+
+      h2 {
+            margin-left: 160px;
+      }
+
+      td {
+            font-size: 20px;
+
+      }
+
+      input {
+            height: 30px;
+
+      }
+
+      p {
+            margin: 5% 20%;
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+      button {
+            margin-left: 27%;
+            height: 40px;
+            width: 80px;
+            font-size: 20px;
+            background-color: brown;
+            color: white;
+      }
+</style>
+
+<body>
+      <h1>Marksheet for information Technology</h1>
+      <h2>Enter marks </h2>
+
+      <form action="">
+            <table>
+                  <tr>
+                        <td><label for="">1. C Langauge</label></td>
+                        <td><input type="number" name="" id="clang"></td>
+                  </tr>
+
+                  <tr>
+                        <td><label for="">2. C++ Langauge</label></td>
+                        <td><input type="number" name="" id="c++lang"></td>
+                  </tr>
+
+                  <tr>
+                        <td><label for="">3.Database</label></td>
+                        <td><input type="number" name="" id="data"></td>
+                  </tr>
+                  <tr>
+                        <td><label for="">4.HTML </label></td>
+                        <td><input type="number" name="" id="html"></td>
+                  </tr>
+                  <tr>
+                        <td><label for="">5. CSS</label></td>
+                        <td><input type="number" name="" id="css"></td>
+                  </tr>
+                  <tr>
+                        <td><label for="">6. php</label></td>
+                        <td><input type="number" name="" id="php"></td>
+                  </tr>
+                  <tr>
+                        <td><label for="">7. Core java</label></td>
+                        <td><input type="number" name="" id="core"></td>
+                  </tr>
+
+            </table>
+      </form>
+      <p>Total is <span id="total"></span></p>
+
+      <p>Percentage is <span id="percentage"></span>
+            <span id="sign" style="color:blue;font-size:20px;">%</span>
+      </p>
+
+      <button onclick="all_total()">Enter</button>
+
+      <script>
+
+            var lang1 = document.getElementById("clang");
+            var lang2 = document.getElementById("c++lang");
+            var lang3 = document.getElementById("data");
+            var lang4 = document.getElementById("html");
+            var lang5 = document.getElementById("php");
+            var lang6 = document.getElementById("css");
+            var lang7 = document.getElementById("core");
+
+            var total = document.getElementById("total");
+
+            var multiple;
+            let per;
+         
+
+
+            function all_total()
+             {
+                  multiple = Number(lang1.value)+ Number(lang2.value)+ Number(lang3.value)+ Number(lang4.value)+ Number(lang5.value)+ Number(lang6.value)+ Number(lang7.value);
+
+                  total.innerText = multiple;
+                  total.style.fontSize="20px";
+                  total.style.color="red";
+
+                  per=(multiple*100)/350;         
+                  percentage.innerText = per;
+                  percentage.style.fontSize="20px";
+                  percentage.style.color="blue";
+
+
+
+             }
+
+
+
+      </script>
+
+
+</body>
+
+</html>

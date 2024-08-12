@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+
+    body{
+           padding:10% 30%;
+    }
+
+    button{
+      width:140px;
+       height:35px;
+       font-size:15px;
+       margin-top:10px;
+       border-radius:7px;
+    }
+
+   </style>
+
+   <script src="table2excel.js">
+
+   </script>
+
+</head>
+<body>
+    
+   <table id="data">
+
+       <tr style="font-size:30px;">
+        <th>Name</th>
+        <th>Age</th>
+        <th>Country</th>
+       </tr>
+
+       <tr style="font-size:30px;">
+         <td>Alice</td>
+         <td>30</td>
+         <td>USA</td>
+       </tr>
+
+       
+       <tr style="font-size:30px;">
+        <td>Dhruv</td>
+        <td>21</td>
+        <td>india</td>
+      </tr>
+
+      <tr style="font-size:30px;">
+        <td>Charlie</td>
+        <td>40</td>
+        <td>Canada</td>
+      </tr>
+
+   </table>
+
+    <BUtton id="download">Export to Excel</BUtton>
+
+    <script>
+
+          let download = document.querySelector("#download");
+
+          let data = document.querySelector("#data");
+
+          download.addEventListener("click",function(){
+
+            var table2excel = new Table2Excel();
+            table2excel.export(document.querySelectorAll("data"));
+
+          });
+
+    </script>
+
+</body>
+</html>

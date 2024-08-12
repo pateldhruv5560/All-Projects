@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Validition</title>
+
+    <style>
+        body {
+            background-color: rgb(81, 194, 130);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1vw;
+        }
+
+        .main {
+            width: 35vw;
+           min-height:45vw;
+            background-color: white;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 2px 2px 20px black;
+        }
+
+        h2 {
+            font-size: 30px;
+            text-align: center;
+            font-family: monospace;
+        }
+
+        input {
+            width: 100%;
+            height: 28px;
+
+
+        }
+
+        label {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #Select {
+            width: 100%;
+            height: 35px;
+        }
+
+        button {
+            width: 100%;
+            height: 35px;
+            margin-top: 20px;
+            background-color: rgb(81, 194, 130);
+            color: white;
+            border: none;
+            font-size: larger;
+            box-shadow: 2px 2px 5px black;
+        }
+
+        .error{
+               display: none;
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        #select{
+                 border:2px solid black;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="main">
+
+        <h2>Form Validition</h2>
+
+        <form action="page.php">
+            <label for="">Full Name</label> <br>
+            <input type="text" placeholder="Enter Your Name" required>
+            <span class="error" style="color: red;">please enter name</span><br><br>
+
+            <label for="">Enter your email-id</label> <br>
+            <input type="email" placeholder="Enter Your mail-id" required>
+            <span class="error" style="color: red;">please enter valid E-mail</span><br><br>
+
+            <label for="">Password</label> <br>
+            <input type="text" placeholder="Enter correct password" required>
+            <span class="error" style="color: red;">please enter correct password</span><br><br>
+
+            <label for="">Birth-Date</label> <br>
+            <input  type="date" , placeholder="Enter Your Name" required>
+            <span class="error" style="color: red;">please enter Date of birth</span><br><br>
+
+
+            <label for="Gender">Gender:</label> <br>
+            <select id="Select">
+                <option value="">Select Gender</option>
+                <option value="">Mail</option>
+                <option value="">Femail</option>
+                <option value="">other</option>
+            </select> <span class="error" style="color: red;">please enter Gender</span><br><br>
+
+            <button >Submit</button>
+
+        </form>
+
+
+
+    </div>
+
+    <script>
+
+        const inputs = document.querySelectorAll("input[required]");
+
+        const button=document.querySelector("button")
+
+        const errors = document.querySelectorAll(".error");
+
+        const select = document.querySelector("#Select");
+
+        inputs.forEach(input => {
+           button.addEventListener('click', inp);
+        });
+
+    
+
+        function inp() {
+            inputs.forEach((input,index) => {
+                if (input.value === "") {
+                    // input.style.borderColor = "#FF0000";
+                    input.style.border = "2px solid #FF0000";
+                    errors[index].style.display = "block";
+                    select.style.border = "2px solid #FF0000";
+
+                } else if (input.value !== "") {
+                    input.style.borderColor = "";
+                    errors[index].style.display = "none";
+                    select.style.border = "";
+                }
+            });
+
+
+
+
+        }
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

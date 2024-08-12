@@ -1,0 +1,231 @@
+
+
+
+                              <!-- Calculator -->
+
+                              <!DOCTYPE html>
+                              <html lang="en">
+                              
+                              <head>
+                                  <meta charset="UTF-8">
+                                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                  <title>Document</title>
+                              
+                                  <style>
+                                      h1 {
+                                          text-align: center;
+                                      }
+                              
+                                      .container {
+                                          text-align: center;
+                                      }
+                              
+                                      .button {
+                                          height: 70px;
+                                          width: 55px;
+                                          padding: 20px;
+                                          border: 2px solid black;
+                                          border-radius: 10px;
+                                      }
+                              
+                                      .row {
+                                          margin: 20px;
+                                      }
+                              
+                                      input {
+                                          width: 17%;
+                                          height: 40px;
+                                          border: 2px solid black;
+                                          border-radius: 8px;
+                                      }
+                              
+                                      p{
+                                             font-size:20px;
+                                             font-family: 'Courier New', Courier, monospace;
+                                             color: blue;
+                                      }
+                              
+                                      input{
+                                               margin-right:160px;
+                                      }
+                                  </style>
+                              
+                              </head>
+                              
+                              <body>
+                                  <h1>Calculator</h1>
+                              
+                                  <div class="container">
+                              
+                                      <div>
+                                         Enter Onest Number:- <input id="onest"  type="text">
+                                      </div>
+                              
+                                      <br>
+                                      <div>
+                                         Enter Second Number:- <input id="second"  type="text">
+                                      </div>
+                              
+                                      <div>
+                                          <p>Answer is:- <span id="result" ></span></p>
+                                      </div>
+                              
+                                      <div class="row">
+                              
+                                       <button class="button" onclick="seven()">7</button>
+                                       <button class="button" style="margin-left:8px;"onclick="eight()">8</button>
+                                       <button class="button" style="margin-left:8px;"onclick="nine()" >9</button>
+                                       <button class="button" style="margin-left:8px;" onclick="multi()">X</button>
+                              
+                                      </div>
+                              
+                                      <div class="row">
+                              
+                                          <button class="button" onclick="forth()">4</button>
+                                          <button class="button" style="margin-left:8px;" onclick="five()">5</button>
+                                          <button class="button" style="margin-left:8px;"onclick="six()" >6</button>
+                                          <button class="button" style="margin-left:8px;" onclick="div()">/</button>
+                              
+                                      </div>
+                              
+                                      <div class="row">
+                              
+                                          <button class="button" onclick="one()"  >1</button>
+                                          <button class="button" style="margin-left:8px;"onclick="second()">2</button>
+                                          <button class="button"  style="margin-left:8px;"onclick="third()">3</button>
+                                          <button class="button"  style="margin-left:8px;" onclick="add()">+</button>
+                              
+                                      </div>
+                              
+                                      <div class="row">
+                              
+                                          <button class="button" >0</button>
+                                          <button class="button" style="margin-left:8px;">.</button>
+                                          <button class="button" style="margin-left:8px;"onclick="less()" >-</button>
+                                          <button class="button" style="margin-left:8px;" onclick="per()">%</button>
+                              
+                                      </div>
+                              
+                                  </div>
+                              
+                                  <script>
+                                         
+                                            var num1 = document.querySelector("#onest");
+                                            var num2 = document.querySelector("#second");
+                              
+                                            let box;
+                              
+                                      
+                                    
+                                          function one()
+                                          {
+                                              num1.value=1;
+                              
+                                              num1.style.color="red"
+                              
+                                                  
+                                          }
+                              
+                                         
+                                          function second()
+                                          {
+                                              num1.value=2;
+                                              num1.style.color="red"
+                                              
+                                          }
+                              
+                                          function third()
+                                          {
+                                              num1.value=3;
+                                              num1.style.color="red"
+                                              
+                                          }
+                              
+                                          function forth()
+                                          {
+                                              num1.value=4;
+                                              num1.style.color="red"
+                                              
+                                          }
+                              
+                              
+                                          function five()
+                                          {
+                                              num1.value=5;
+                                              num1.style.color="red"
+                                              
+                                          }
+                              
+                                          function six()
+                                          {
+                                              num1.value=6;
+                                              num1.style.color="red"
+                                              
+                                          }
+                              
+                                          function seven()
+                                          {
+                                              num1.value=7;
+                                              num1.style.color="red"
+                                              
+                                          }
+                              
+                              
+                                          function eight()
+                                          {
+                                              num1.value=8;
+                                              num1.style.color="red"
+                                              
+                                          }
+                              
+                              
+                                          function nine()
+                                          {
+                                              num1.value=9;
+                                              num1.style.color="red"
+                                              
+                                          }
+                                            
+                                             function add()
+                                              {
+                                                  box = Number(num1.value)+ Number(num2.value);
+                                                  result.innerText=box;
+                                                  result.style.color="red"
+                                              }
+                              
+                                             function less() {
+                                                  box = Number(num1.value)- Number(num2.value);
+                                                  result.innerText=box;
+                                                  result.style.color="red"
+                                             }
+                              
+                                             function multi() {
+                                                  box = Number(num1.value)* Number(num2.value);
+                                                  result.innerText=box;
+                                                  result.style.color="red"
+                                             }
+                              
+                                             function div() {
+                                                  box = Number(num1.value)/ Number(num2.value);
+                                                  result.innerText=box;
+                                                  result.style.color="red"
+                                             }
+                              
+                                             
+                                             function per() {
+                                                  box = Number(num1.value)% Number(num2.value);
+                                                  result.innerText=box;
+                                                  result.style.color="red"
+                                             }
+                              
+                                        
+                              
+                              
+                                  </script>
+                              
+                              </body>
+                              
+                              </html>  
+                              
+                              
+                              

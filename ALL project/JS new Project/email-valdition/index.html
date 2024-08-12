@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            background-color: lightblue;
+
+        }
+
+        .main {
+            padding: 15% 35%;
+
+        }
+
+        .whitemail {
+            display: flex;
+            background-color: white;
+            /* padding:1vw 2vw; */
+            width: 280px;
+            height: 60px;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 2px 2px 1px black;
+
+        }
+
+        input {
+            border: none;
+            outline: none;
+
+            display: inline;
+        }
+
+        #whitemail {
+            padding-left: 5.55vw;
+            position: relative;
+            opacity: 1;
+        }
+
+        #redmail {
+            position: relative;
+            left: -1.55vw;
+            bottom: 0vw;
+            opacity: 0;
+
+        }
+
+        #correct {
+            position: relative;
+            left: 6vw;
+            opacity: 0;
+
+        }
+
+        img {
+            display: inline;
+        }
+
+        @media only screen and (min-width: 1300px) {
+            #whitemail {
+                padding-left: 4vw;
+                position: relative;
+
+            }
+        }
+
+        @media only screen and (min-width: 1850px) {
+            #whitemail {
+                padding-left: 3vw;
+                position: relative;
+
+            }
+
+        }
+
+
+        @media only screen and (min-width: 1250px) {
+            #redmail {
+                padding-left: -1.55vw;
+                position: relative;
+
+            }
+        }
+
+        @media only screen and (min-width:1645px) {
+            #redmail {
+                padding-left: -1.55vw;
+                position: relative;
+
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="whitemail">
+
+            <input type="text">
+
+            <i id="correct" class="fa-solid fa-circle-check fa-lg" style="color: #63df11;"></i>
+
+            <img id="whitemail" width="19px" height="17px" src="mail-white.png" alt="">
+
+            <img id="redmail" width="19px" height="17px" src="mail.png" alt="">
+
+        </div>
+
+
+    </div>
+
+    <script>
+
+        let whitemail = document.querySelector("#whitemail");
+        let redmail = document.querySelector("#redmail");
+        let btn = document.querySelector("#btn");
+        const Input = document.querySelector("input");
+        let correct = document.querySelector("#correct");
+
+        Input.addEventListener('input', function () {
+            const emailinput = Input.value;
+            const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+
+         
+
+            if (emailPattern.test(emailinput)) {
+
+                redmail.style.opacity = "0";
+                whitemail.style.opacity = "0";
+                correct.style.opacity = "1";
+                correct.style.Position = "relative"
+                correct.style.left = "5.50vw"
+            }
+
+            else if (!emailPattern.test(emailinput)) {
+
+                redmail.style.opacity = "1";
+                whitemail.style.opacity = "0";
+                redmail.style.Position = "relative"
+                redmail.style.left = "-2vw"
+                correct.style.opacity = "0";
+            }
+        });
+
+    </script>
+</body>
+
+</html>

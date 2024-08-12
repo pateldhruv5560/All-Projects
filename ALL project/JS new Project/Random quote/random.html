@@ -1,0 +1,121 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+
+  body{
+           padding:10% 30%;
+           background-color: #276add;
+  }
+
+   .main{
+       width:40vw;
+       height:21vw;
+       padding-left:10px;
+       padding-right:10px;
+      text-align: center;
+      border-radius:10px;
+      background-color: white;
+      box-shadow:1px 1px 7px 1px black;
+   }
+
+   .line{
+           width:100%;
+           border:1px solid black;
+          opacity:0.6;
+   }
+
+   #icons{
+           width:25px;
+           height:25px;
+           border:1px solid blue;
+           border-radius:50%;
+           text-align: center;
+           align-content: center;
+   }
+
+   .icon{
+    display: flex;
+    justify-content: space-between;
+    margin-top:20px;
+   }
+
+   span{
+    margin-left:300px;
+   }
+
+   button{
+           border-radius:15px;
+           background-color: rgb(70, 70, 225);
+           color:white;
+           border: none;
+   }
+
+   h3{
+      padding-top:5px;
+   }
+
+    </style>
+
+</head>
+<body>
+    
+     <div class="main">
+
+         <h3>Quate of the Day</h3>
+
+         <p id="quote">"If you want to be successful, find someone who has achieved the results you want and copy what they do and you'll achieve the same results"</p>  <span id="author">-Tony Robbins</span>   
+       
+         <div class="line"></div>
+         
+         <div class="icon">
+            <div class="left">
+                <i id="icons" class="fa-solid fa-volume-high" style="color: #2e8dd6;"></i>
+
+                <i id="icons" class="fa-solid fa-file" style="color: #285fbd;"></i>
+
+                <i id="icons" class="fa-brands fa-twitter" style="color: #276add;"></i>
+            </div> 
+            
+
+            <button onclick="changeQuote()">New Quote</button>
+         </div>
+
+     </div>
+
+     <script>
+
+         let p=document.querySelector("p");
+         
+        let quate =[   { text: "Success is not final, failure is not fatal: It is the courage to continue that counts.", author: "Winston Churchill" },
+            { text: "Believe you can and you're halfway there.", author: "Theodore Roosevelt" },
+            { text: "The only way to do great work is to love what you do.", author: "Steve Jobs" },
+            { text: "Don't watch the clock; do what it does. Keep going.", author: "Sam Levenson" },
+            { text: "You miss 100% of the shots you don't take.", author: "Wayne Gretzky" },
+            { text: "Strive not to be a success, but rather to be of value.", author: "Albert Einstein" },
+            { text: "I find that the harder I work, the more luck I seem to have.", author: "Thomas Jefferson" },
+            { text: "Your time is limited, so don't waste it living someone else's life.", author: "Steve Jobs" },
+            { text: "The best way to predict the future is to create it.", author: "Peter Drucker" },
+            { text: "Success usually comes to those who are too busy to be looking for it.", author: "Henry David Thoreau" }
+        ];
+
+        function changeQuote() {
+            const randomIndex = Math.floor(Math.random() * quate.length);
+
+            document.getElementById("quote").innerText = `"${quate[randomIndex].text}"`;
+
+            document.getElementById("author").innerText = `-${quate[randomIndex].author}`;
+        }
+
+     </script>
+
+</body>
+</html>
