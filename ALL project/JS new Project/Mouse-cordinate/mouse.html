@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+
+            width: 40vw;
+            height: 25vw;
+            border: 2px solid black;
+            border-style: dotted;
+            text-align: center;
+
+        }
+
+        body {
+            padding: 10% 33%;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        <span>Mouse cordinate:-</span>
+        <h1></h1>
+    </div>
+
+    <script>
+
+        let h1 = document.querySelector("h1")
+        let div = document.querySelector("div")
+
+
+        div.addEventListener('mousemove', function(cordinate) {
+            const rect = div.getBoundingClientRect();
+            const x =event.clientX - rect.left; 
+            const y =event.clientY - rect.top;  
+            h1.textContent = `Xdir: ${x}, Ydir: ${y}`;
+        });
+
+    </script>
+
+</body>
+
+</html>
