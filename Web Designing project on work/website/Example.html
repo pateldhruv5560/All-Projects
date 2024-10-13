@@ -1,0 +1,70 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+    <style>
+
+.video-container {
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+
+    </style>
+
+
+</head>
+<body>
+    
+
+    <div class="video-container">
+        <video id="myVideo" controls>
+          <source src="b7e94ef4.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      
+
+         <script>
+// Get the video element
+const video = document.getElementById('myVideo');
+
+// Variable to track scroll position
+let lastScrollTop = 0;
+
+// Function to handle scroll event
+function handleScroll() {
+  const currentScrollTop = window.scrollY || document.documentElement.scrollTop;
+
+  if (currentScrollTop > lastScrollTop) {
+    // Scrolling down
+    video.play();
+  } else {
+    // Scrolling up
+    video.pause();
+  }
+
+  // Update last scroll position
+  lastScrollTop = currentScrollTop;
+}
+
+// Listen for scroll events
+window.addEventListener('scroll', handleScroll);
+
+         </script>
+
+
+</body>
+</html>
+  

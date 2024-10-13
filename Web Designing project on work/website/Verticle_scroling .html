@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .main {
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .image {
+
+            width: 100%;
+            justify-content: space-evenly;
+
+        }
+
+
+        .paragrph {
+
+            width: 400px;
+
+        }
+
+        p {
+            position: fixed;
+            width: 150px;
+        }
+
+        .all_image {
+            display: flex;
+            flex-direction: column;
+
+        }
+    </style>
+
+
+</head>
+
+<body onclick=" hori()">
+
+
+    <div class="main">
+
+
+        <div class="paragrph">
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, eum! Voluptate maxime eius dicta
+                veritatis possimus itaque eligendi nihil provident. Qud in.</p>
+
+                <br><br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, eum! Voluptate maxime eius dicta
+                veritatis possimus itaque eligendi nihil provident. Quam doloremque libero excepturi animi illum saepe
+                asperiores, aliquid in.</p>
+
+
+                <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>
+                <br>  <br>  <br>  <br>  <br>  <br>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, eum! Voluptate maxime eius dicta</p>
+                    
+
+        </div>
+
+
+
+        <div class="all_image" >
+            <img class="image" src="nature_img_1.jpg" alt="">
+
+            <br>  <br>
+
+            <img class="image" src="nature_img_2.jpg" alt="">
+
+            <br> <br>
+
+            <img class="image" src="nature_img_3.jpg" alt="">
+
+
+        </div>
+
+
+    </div>
+
+         <script>
+
+        let all_image = document.querySelector(".all_image"); 
+        let paragrph = document.querySelector(".paragrph"); 
+        let image = document.querySelector(".image");
+        
+
+                                               
+            function hori()
+            {
+                  all_image.style.flexDirection = "column";
+                  paragrph.style.display = "none";
+
+                  if(all_image.style.flexDirection = "row")
+                  {
+                    
+                    all_image.style.transform = `translateY()`;
+                    
+                  }
+                 
+                 
+            }
+
+            // hori()
+
+
+         </script>
+
+</body>
+
+</html>
